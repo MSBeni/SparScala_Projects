@@ -4,3 +4,6 @@ println(HelloThere)
 
 val theUltimateAnswer: String = "To life, the universe, and everything is 42."
 val pattern = """.* ([\d]+).*""".r
+val pattern(newAppliedPatAns) = theUltimateAnswer
+val ansInt = newAppliedPatAns.toInt
+println(ansInt)
