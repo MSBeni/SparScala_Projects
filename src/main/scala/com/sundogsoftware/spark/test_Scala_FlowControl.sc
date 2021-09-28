@@ -27,3 +27,10 @@ for (x <- 2 to 5){
   var calc = x*x
   println(calc)
 }
+
+
+var x = 15
+while (x >= 2){
+  println(x%2)
+  x -= 1
+}
