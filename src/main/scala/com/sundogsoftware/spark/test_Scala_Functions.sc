@@ -19,8 +19,6 @@ println(fibonacci_check(5))
 
 def cubeIt(x : Int) : Int = {x * x * x}
 
-println(squareIt(2))
-
 println(cubeIt(3))
 
 def transformInt(x: Int, f: Int => Int): Int = {
