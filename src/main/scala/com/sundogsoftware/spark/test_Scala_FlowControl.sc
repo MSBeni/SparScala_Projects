@@ -23,3 +23,7 @@ number match {
 }
 
 
+for (x <- 2 to 5){
+  var calc = x*x
+  println(calc)
+}
