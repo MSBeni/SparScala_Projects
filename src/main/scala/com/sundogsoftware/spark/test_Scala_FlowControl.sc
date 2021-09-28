@@ -34,3 +34,13 @@ while (x >= 2){
   println(x%2)
   x -= 1
 }
+
+var y = 1
+var l = 0
+val n = 10
+for (i <- 1 to n){
+  var m = y+l
+  l = y
+  y = m
+  println(m)
+}
